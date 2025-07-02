@@ -1,0 +1,10 @@
+# Exemple de fichier .env pour Spotify Data Exporter
+# Renommez ce fichier en .env et complétez avec vos informations
+
+# Identifiants de l'application Spotify Developer
+# Obtenez-les sur https://developer.spotify.com/dashboard/
+SPOTIFY_CLIENT_ID=votre_client_id_ici
+SPOTIFY_CLIENT_SECRET=votre_client_secret_ici
+
+# URI de redirection 
+SPOTIFY_REDIRECT_URI=http://127.0.0.1:8888/callback

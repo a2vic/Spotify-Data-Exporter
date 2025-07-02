@@ -1,0 +1,47 @@
+# Environnements virtuels
+.venv/
+env/
+
+# Fichiers temporaires / secrets
+.env
+.spotify_token_cache
+*.env
+*.token
+*.secret
+*.key
+# Cache Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Fichiers de logs et de runtime
+*.log
+*.pid
+*.db
+*.sqlite3
+
+# Tests (code et documentation)
+tests/
+TESTS.md
+requirements-dev.txt
+
+# Fichiers d'éditeurs / IDE
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Systèmes / OS
+.DS_Store
+Thumbs.db
+
+# Distribution / packaging (si jamais tu packages)
+build/
+dist/
+*.egg-info/
+
+# Fichiers temporaires
+*.bak
+*.swp
+*.tmp
